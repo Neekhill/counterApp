@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Button from './Button';
 import './app.css';
 
 function App() {
   const [score, setScore] = useState(0);
   const [errMsg, setErrMsg] = useState("cannot go less than 0");
+
   return (
     <div className="container">
       <div >
