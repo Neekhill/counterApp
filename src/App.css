@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+.container{ display : flex;
+            justify-content : center;
+            align-items: center;
+            height: 500;
+            width: full;
+            text-align: center; 
+        }
+.main-heading{
+    font-size: 60px;
+    font-weight: 400;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#545554;
+    margin-top: 60px;
+    margin-bottom: 0%;
+    line-height: 1;
+}
+h3{
+    font-size: 80px;
+    font-weight: 800;
+    color:#545554;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.errmsg{
+    height:20px;
+    width:67%;
+    background-color: #f64646;
+    padding : 10px 1px;
+    color: floralwhite;
+    margin-left: 20px; 
+    margin-bottom: 20px;
+
+}
+.errNotVisble{
+    height:20px;
+    width:68%;
+    
+    padding : 10px 1px;
+    color: floralwhite;
+    margin-left: 20px; 
+    margin-bottom: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn{
+    border: none;
+    padding: 15px 40px;
+    font-size: 50px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.dec-btn{
+    background-color: #900909;
+    color: floralwhite; 
+}
+.container .dec-btn:hover{
+    background-color: #ba1616;
+    cursor: pointer;
+   
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inc-btn{
+    background-color:#0755b6;
+    color: floralwhite;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.reset{
+    background-color: gray;
+    color: floralwhite;
 }
